@@ -1,7 +1,7 @@
 {
   "name": "vue-inputs",
   "description": "Bootstrap 4 VueJS form elements with validator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Tadas Maslauskas",
   "repository": {
     "type": "git",
