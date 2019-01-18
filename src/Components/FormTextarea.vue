@@ -3,7 +3,7 @@
         <label :for="name" v-text="label" :class="labelClass"></label>
 
         <textarea v-bind="$attrs"
-                  rows="10"
+                  :rows="rows"
                   :value="value"
                   :class="inputClass"
                   v-on:input="$emit('input', $event.target.value)"
@@ -30,6 +30,7 @@
     props: {
       name: String,
       label: String,
+      rows: Number,
       value: [String, Number],
       inline: {
         type: Boolean,
