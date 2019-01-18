@@ -1,6 +1,6 @@
 <template>
     <div :class="{'form-group': true, 'row': inline}">
-        <label :for="name" v-text="label" :class="labelClass"></label>
+        <label :for="name" v-text="label" :class="labelClass" v-if="label"></label>
 
         <textarea v-bind="$attrs"
                   :rows="rows"
